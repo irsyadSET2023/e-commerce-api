@@ -2,9 +2,10 @@ List of Commands
 
 Setup Database and Queue
 
-1. Please refer to .env.example, just put your database credential in it
-2. run command php artisan migrate for creating table
-3. run command php artisan db:seed for seeding products
+1. Please refer to .env.example, just put your database credentials in it
+2. please create database schema name e_commerce and e_commerce_testing in your mysql server
+3. run command php artisan migrate for creating table
+4. run command php artisan db:seed for seeding products
 
 API List can be obtained in e_commerce_api_list_command
 
