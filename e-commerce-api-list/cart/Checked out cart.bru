@@ -1,0 +1,17 @@
+meta {
+  name: Checked out cart
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{host}}/api/cart/checked_out
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "customer_email":"irsyad@mail.com"
+  }
+}

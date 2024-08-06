@@ -1,0 +1,15 @@
+meta {
+  name: logout
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{host}}/api/auth/logout
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: 1|wMDKjHnpCrtkCBddE1TaEhIozoCTt5gJZvf35ssh80a40be4
+}

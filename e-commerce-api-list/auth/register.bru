@@ -1,0 +1,20 @@
+meta {
+  name: register
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{host}}/api/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"Ahmad Muhammad",
+    "email":"ahmad@mail.com",
+    "password":"abcd1234",
+    "password_confirmation":"abcd1234"
+  }
+}
